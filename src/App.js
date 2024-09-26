@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React with Ashish 26 sept 2024 updated
+          Learn React with Ashish 26 sept 2024 updated build with webhook
         </a>
       </header>
     </div>
