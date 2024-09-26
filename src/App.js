@@ -3,10 +3,38 @@ function App() {
     <div className="flex items-center justify-between bg-[#111828] min-h-screen px-10">
       <div className="w-1/2 text-left space-y-4">
         <h1 className="text-xl font-semibold text-yellow-400">
-          Hello, Welcome
+          {"Hello, Welcome".split("").map((char, index) => (
+            <span
+              key={index}
+              className={`inline-block opacity-0 animate-fade-up`}
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
+              {char === " " ? "\u00A0" : char}
+            </span>
+          ))}
         </h1>
-        <p className="text-4xl font-bold text-blue-300">Name: Ashish Chikane</p>
-        <p className="text-xl text-green-300">Job role: Software Engineer</p>
+        <p className="text-4xl font-bold text-blue-300">
+          {"Ashish Chikane".split("").map((char, index) => (
+            <span
+              key={index}
+              className={`inline-block opacity-0 animate-fade-up`}
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
+              {char === " " ? "\u00A0" : char}
+            </span>
+          ))}
+        </p>
+        <p className="text-xl text-green-300">
+          {"Software Engineer".split("").map((char, index) => (
+            <span
+              key={index}
+              className={`inline-block opacity-0 animate-fade-up`}
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
+              {char === " " ? "\u00A0" : char}
+            </span>
+          ))}
+        </p>
 
         <div className="space-y-2">
           <h2 className="text-2xl font-semibold text-pink-400">Description:</h2>
