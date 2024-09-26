@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React & Jenkins With ashish ...
+          Learn React with Ashish 26 sept 2024
         </a>
       </header>
     </div>
