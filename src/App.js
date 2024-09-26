@@ -13,8 +13,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          RUshikesh
-          Atharva in love 
+          Atharva is good boy 
         </a>
       </header>
     </div>
