@@ -25,7 +25,7 @@ function App() {
           ))}
         </p>
         <p className="text-xl text-green-300">
-          {"Software Engineer".split("").map((char, index) => (
+          {"Software Developer".split("").map((char, index) => (
             <span
               key={index}
               className={`inline-block opacity-0 animate-fade-up`}
