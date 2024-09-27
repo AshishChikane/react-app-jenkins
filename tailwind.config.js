@@ -12,7 +12,7 @@ module.exports = {
         },
       },
       animation: {
-        'fade-up': 'fade-up 0.3s forwards',
+        'fade-up': 'fade-up 0.01s forwards',
       },
     },
   },
